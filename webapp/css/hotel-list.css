@@ -1,0 +1,19 @@
+.resort-name{
+    margin-top:10px ;
+}
+.hotel-des{
+    margin-top: -5px;
+}
+.hotel-name{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#inf-hotel{
+    text-decoration: none;
+    margin-top: -15px;
+}
+#nothing-found{
+    text-align: center;
+    padding-bottom: 200px;
+}
+

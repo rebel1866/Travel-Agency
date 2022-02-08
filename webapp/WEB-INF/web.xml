@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://java.sun.com/xml/ns/javaee"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         version="3.0">
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+
+    <session-config>
+        <session-timeout>10</session-timeout>
+    </session-config>
+    <context-param>
+        <param-name>db-url</param-name>
+        <param-value>jdbc:mysql://localhost:3306/travel_agency</param-value>
+    </context-param>
+    <context-param>
+        <param-name>db-user</param-name>
+        <param-value>root</param-value>
+    </context-param>
+    <context-param>
+        <param-name>db-password</param-name>
+        <param-value>rebel15386183</param-value>
+    </context-param>
+    <context-param>
+        <param-name>db-driver</param-name>
+        <param-value>com.mysql.cj.jdbc.Driver</param-value>
+    </context-param>
+    <context-param>
+        <param-name>pool-size</param-name>
+        <param-value>5</param-value>
+    </context-param>
+
+    <servlet>
+        <servlet-name>executor</servlet-name>
+        <servlet-class>by.epamtc.stanislavmelnikov.controller.executor.Executor</servlet-class>
+        <load-on-startup>0</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>executor</servlet-name>
+        <url-pattern>/executor</url-pattern>
+    </servlet-mapping>
+
+    <filter>
+        <filter-name>encoding-filter</filter-name>
+        <filter-class>by.epamtc.stanislavmelnikov.controller.filters.EncodingFilter</filter-class>
+        <init-param>
+            <param-name>requestEncoding</param-name>
+            <param-value>UTF-8</param-value>
+        </init-param>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>encoding-filter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+    <filter>
+        <filter-name>lang-filter</filter-name>
+        <filter-class>by.epamtc.stanislavmelnikov.controller.filters.LanguageFilter</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>lang-filter</filter-name>
+        <url-pattern>/executor</url-pattern>
+    </filter-mapping>
+
+    <filter>
+        <filter-name>multipart-filter</filter-name>
+        <filter-class>by.epamtc.stanislavmelnikov.controller.filters.MultipartDataFilter</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>multipart-filter</filter-name>
+        <url-pattern>/executor</url-pattern>
+    </filter-mapping>
+
+    <filter>
+        <filter-name>rights-filter</filter-name>
+        <filter-class>by.epamtc.stanislavmelnikov.controller.filters.UserRightsFilter</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>rights-filter</filter-name>
+        <url-pattern>/executor</url-pattern>
+    </filter-mapping>
+
+
+    <filter>
+        <filter-name>blocked-user-filter</filter-name>
+        <filter-class>by.epamtc.stanislavmelnikov.controller.filters.BlockedUserFilter</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>blocked-user-filter</filter-name>
+        <url-pattern>/executor</url-pattern>
+    </filter-mapping>
+
+    <error-page>
+        <exception-type>java.lang.Exception</exception-type>
+        <location>/WEB-INF/jsp/error-page.jsp</location>
+    </error-page>
+
+    <listener>
+        <listener-class>by.epamtc.stanislavmelnikov.dao.connection.ContextListener</listener-class>
+    </listener>
+</web-app>

@@ -1,0 +1,38 @@
+
+h5{
+    margin-left: 40px;
+    background-color: lightblue;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 40px;
+}
+table{
+    border: 1px solid;
+    margin-left: 40px;
+    border-collapse: collapse;
+}
+a{
+    margin-top: 10px;
+}
+td{
+    border: 1px solid;
+    height: 30px;
+}
+.tr-even{
+    background-color: lightgray;
+}
+#error-content{
+    padding-bottom: 300px;
+}
+.error-admin{
+    margin-left: 40px;
+}
+.error-common{
+    position: relative;
+    left: 25%;
+    margin-top: 120px;
+    background-color: lightblue;
+    padding: 50px;
+   border-radius: 20px;
+    margin-right: 300px;
+}

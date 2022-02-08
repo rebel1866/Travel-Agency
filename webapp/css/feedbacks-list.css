@@ -1,0 +1,24 @@
+.first-last-name {
+    font-weight: bold;
+    float: left;
+}
+
+.date-time {
+    float: right;
+}
+
+#fbk-container {
+    vertical-align: top;
+}
+
+.fbk-body {
+    vertical-align: top;
+}
+.tour_name_fbk{
+    margin-top: 8px; margin-bottom: -20px;
+
+}
+.tour_name_link{
+    text-decoration: none;
+}
+

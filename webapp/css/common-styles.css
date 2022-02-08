@@ -1,0 +1,75 @@
+
+#content {
+    float: right;
+    width: 80%;
+    background-color: white;
+}
+
+#navbar {
+    float: right;
+    width: 18%;
+    background-color: white;
+    margin-right: 10px;
+}
+
+#footer {
+    clear: both;
+    background-color: black;
+}
+#copyright{
+    color: white;
+    text-align: right;
+    margin-right: 50px;
+    padding: 20px;
+    margin-bottom: 0;
+}
+
+#container {
+    background-color: #dddddd;
+}
+
+#header {
+    background-color: black;
+    height: 60px;
+    margin-bottom: 5px;
+}
+#sorting {
+    margin-left: 480px;
+    margin-top: 30px;
+}
+.link-a{
+    background-color: lightblue;
+    border-radius: 5px;
+}
+
+body {
+    margin: 0px;
+}
+
+.nav-text {
+    margin-left: 20px;
+}
+
+.nav-href {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 19px;
+}
+#best-tours{
+    color: white;
+    font-size: 50px;
+    margin-left: 20px;
+    float:left;
+}
+.sign-in-button{
+    margin-right: 81px;
+    margin-top: 20px;
+    color: white;
+    float: right;
+}
+#lang{
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 20px;
+    float: right;
+}

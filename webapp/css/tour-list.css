@@ -1,0 +1,43 @@
+.rating {
+    display: inline-block;
+    font-size: 0;
+
+}
+.rating span {
+    padding: 0;
+    font-size: 20px;
+    line-height: 1;
+    color: lightgrey;
+}
+.rating > span:before {
+    content: '★';
+}
+.rating > span.active {
+    color: gold;
+}
+.price{
+    float: left;
+}
+.info-tour{
+    float: right;
+    text-decoration: none;
+}
+.tour-name{
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: -10px;
+}
+
+.date{
+    margin-top: -10px;
+}
+.price{
+    font-weight: bold;
+}
+#tour-hotel{
+    margin-bottom: 5px
+}
+#nothing-found{
+    text-align: center;
+    padding-bottom: 200px;
+}

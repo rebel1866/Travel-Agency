@@ -1,0 +1,16 @@
+p,h1{
+    margin-left: 30px;
+}
+.list{
+    text-decoration: underline;
+}
+h1{
+    background-color: lightblue;
+    padding: 10px;
+    margin-right: 300px;
+    border-radius: 15px;
+}
+#add-user,#update-user, #new-role, #block{
+    text-decoration: none;
+    margin-right: 50px;
+}

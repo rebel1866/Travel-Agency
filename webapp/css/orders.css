@@ -1,0 +1,45 @@
+table{
+    border: 1px solid;
+    border-collapse: collapse;
+    width: 92%;
+    margin-left: 30px;
+}
+td,th{
+    border: 1px solid;
+    text-align: center;
+}
+#order-content{
+    margin-bottom: 300px;
+}
+tr{
+    height: 50px;
+}
+#user-id{
+    width: 10px;
+}
+.color-green{
+    color: darkgreen;
+}
+.color-yellow{
+    color: orange;
+}
+.color-red{
+    color: red;
+}
+.color-blue{
+    background-color: lightblue;
+}
+#search{
+    margin-left: 230px;
+    margin-bottom: 0px;
+}
+input{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+form{
+    background-color: lightblue;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 20px 120px 40px;
+}

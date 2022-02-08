@@ -1,0 +1,17 @@
+.rating {
+    display: inline-block;
+    font-size: 0;
+
+}
+.rating span {
+    padding: 0;
+    font-size: 20px;
+    line-height: 1;
+    color: lightgrey;
+}
+.rating > span:before {
+    content: '★';
+}
+.rating > span.active {
+    color: gold;
+}

@@ -1,0 +1,27 @@
+.image-hotel {
+    margin-bottom: 30px;
+    width: 80%;
+    margin-left: 40px;
+}
+#content-full-hotel{
+    background-color: ghostwhite;
+    text-align: justify;
+    padding: 30px;
+}
+#resort-name-hotel{
+    text-decoration: none;
+}
+#remove-hotel{
+    margin-left: 10px;
+    text-decoration: none;
+}
+#change-hotel{
+    margin-left: 20px;
+    text-decoration: none;
+}
+#nav-hotel{
+    background-color: ghostwhite;
+}
+#hotel-tourss{
+    margin-left: 20px;
+}

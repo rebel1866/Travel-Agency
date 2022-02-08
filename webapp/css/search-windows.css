@@ -1,0 +1,44 @@
+#search-window {
+    padding: 20px;
+
+    margin-left: 60px;
+    margin-right: 150px;
+    margin-top: 20px;
+    background: lightblue;
+    border-radius: 10px;
+}
+
+.form {
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.a-class {
+    margin-bottom: 10px;
+}
+
+#hotel-form {
+    position: relative;
+    left: 15%;
+    top: 20px;
+    background-color: lightblue;
+    border-radius: 10px;
+    padding: 20px 20px 15px;
+    margin-right: 260px;
+}
+
+#search-hotel-btn {
+    position: relative;
+    left: 36%;
+    margin-top: 10px;
+}
+
+#acInput, #resort-input, #location-input {
+    margin-right: 10px;
+    width: 170px;
+    height: 22px;
+}
+#location-input{
+    margin-bottom: 10px;
+}
+

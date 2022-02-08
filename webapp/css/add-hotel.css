@@ -1,0 +1,28 @@
+input{
+    margin-bottom: 10px;
+}
+select{
+    margin-bottom: 10px;
+}
+textarea{
+    margin-bottom: 10px;
+}
+#add-hotel-form{
+    background-color: lightblue;
+    margin-left: 50px;
+    padding-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+    border-radius: 15px;
+    padding-top: 20px;
+}
+.forms-add-hotel{
+    width: 300px;
+}
+#amount-rooms{
+    width: 70px;
+}
+#submit-add-hotel{
+    position: relative;
+    left: 35%;
+}

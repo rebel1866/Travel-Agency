@@ -1,0 +1,14 @@
+.fbk-body{
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+#head-fbk{
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 30px 20px 20px 50px;
+}
+#fbk-content{
+    padding: 20px;
+}

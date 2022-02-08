@@ -1,0 +1,18 @@
+input{
+    margin-bottom: 15px;
+}
+form{
+    margin-left: 260px;
+    margin-top: 50px;
+    border-radius: 15px;
+    background-color: lightblue;
+    padding: 20px;
+    margin-right: 260px;
+}
+h2{
+    margin-left: 50px;
+}
+#button-change-personal{
+    margin-left: 110px;
+    margin-bottom: -10px;
+}

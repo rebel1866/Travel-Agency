@@ -1,0 +1,23 @@
+.authoriz{
+    text-align: center;
+    margin-top: 100px;
+}
+.auth-element{
+    margin-bottom: 10px;
+}
+h1{
+    text-align: center;
+}
+#registration, #forgot-pass{
+    text-decoration: none;
+}
+#submit{
+    margin-top: 10px;
+}
+#sign_in_mes{
+    color: red;
+    margin-bottom: 10px;
+}
+form{
+    padding-bottom: 150px;
+}
