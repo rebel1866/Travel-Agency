@@ -20,7 +20,7 @@
     </context-param>
     <context-param>
         <param-name>db-password</param-name>
-        <param-value>rebel15386183</param-value>
+        <param-value>test</param-value>
     </context-param>
     <context-param>
         <param-name>db-driver</param-name>
