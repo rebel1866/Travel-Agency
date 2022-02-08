@@ -202,6 +202,17 @@ public class TourLogicImpl implements TourLogic {
             }
         }
     }
+       public static class CurrencyHolder {
+        private static Map<String, Double> currencyRates = new ConcurrentHashMap<>();
+
+        public static Map<String, Double> getCurrencyRates() {
+            return currencyRates;
+        }
+
+        public static void setCurrencyRates(Map<String, Double> currencyRates) {
+            CurrencyHolder.currencyRates = currencyRates;
+        }
+    }
 
     public void validateFields(String departureStr, String comebackStr, String priceStr, String amountAdultsStr,
                                String amountChildrenStr, String amountSeatsStr, String relevanceStr, String tourName,
